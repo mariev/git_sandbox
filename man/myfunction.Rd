@@ -4,13 +4,13 @@
 \alias{myfunction}
 \title{myfunction}
 \usage{
-myfunction(x)
+myfunction(user)
 }
 \arguments{
-\item{x}{text string}
+\item{user}{character string with user's name}
 }
 \value{
-"Hello World!"
+Character string greeting the user
 }
 \description{
 A hello world example
