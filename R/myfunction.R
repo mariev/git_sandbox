@@ -1,8 +1,8 @@
 #' @title myfunction
 #' @description A hello world example
-#' @param x text string
-#' @return "Hello World!"
+#' @param user character string with user's name
+#' @return Character string greeting the user
 #' @export
-myfunction <- function(x){
-    print("Hello World!")
+myfunction <- function(user){
+    print(paste("Hello ", user, "!", sep = ''))
 }
