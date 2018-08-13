@@ -10,8 +10,8 @@ myfunction(x)
 \item{x}{text string}
 }
 \value{
-"Hello World!"
+"Hello World! Today is:"
 }
 \description{
-A hello world example
+A hello world example with date
 }
