@@ -1,8 +1,8 @@
 #' @title myfunction
-#' @description A hello world example
+#' @description A hello world example with date
 #' @param x text string
-#' @return "Hello World!"
+#' @return "Hello World! Today is:"
 #' @export
 myfunction <- function(x){
-    print("Hello World!")
+    print(paste("Hello World! Today is:", format(Sys.Date(), "%B %d, %Y")))
 }
